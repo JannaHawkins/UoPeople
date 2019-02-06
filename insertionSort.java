@@ -1,10 +1,15 @@
 import java.util.*;
 
+/**
+ *provides review of insertion sort algorithm on array of any size 
+ Array is full of randomly generated numbers from 1 to 50
+ */
 class insertionSort {
 	
 	
-	public static void main(String[] args){
-			
+    public static void main(String[] args){
+
+	
 			int ARRAY_SIZE = 10;
 			int[] array = new int[ARRAY_SIZE];
 			
@@ -25,7 +30,13 @@ class insertionSort {
 			System.out.println(after);
 			
 	}
-			static void insertionSortAlgorithm (int[] array){
+
+    /**
+       Uses insertion sort to sort an array of integers.
+       @param array of integers
+  
+     */
+    static void insertionSortAlgorithm (int[] array){
 				// From Eck 7.4.3
 				// Sorts into increasing order
 				
